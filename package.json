@@ -1,0 +1,22 @@
+{
+  "name": "xmltojson",
+  "version": "1.0.0",
+  "description": "XmlToJson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkayaoguzhan/XmlToJson.git"
+  },
+  "author": "Oguzhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkayaoguzhan/XmlToJson/issues"
+  },
+  "homepage": "https://github.com/hkayaoguzhan/XmlToJson#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
