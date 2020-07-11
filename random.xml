@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <BIREYSEL>
+      <bkBildirimdeBulunanFinansKurulusuSayisi>2</bkBildirimdeBulunanFinansKurulusuSayisi>
+      <bkEnEskTakibeAlinmaTarihi />
+      <bkExclusionCode />
+      <bkGecikmedekiToplamHesapSayisi>0</bkGecikmedekiToplamHesapSayisi>
+      <bkGeciktirdigiBakiyeToplami>0</bkGeciktirdigiBakiyeToplami>
+      <bkHesapDokumuBeans>
+         <bkHesap>
+            <element>
+               <bkAcilisTarihi>20190716</bkAcilisTarihi>
+               <bkDovizKodu>TL</bkDovizKodu>
+               <bkEnSonGuncellemeTarihi>20190915</bkEnSonGuncellemeTarihi>
+               <bkGecikmedekiBakiye>0</bkGecikmedekiBakiye>
+               <bkHesaptakiKonumu>1</bkHesaptakiKonumu>
+               <bkKapanisTarihi>
+                  <element />
+               </bkKapanisTarihi>
+               <bkKayitReferansNo>7027461580078B</bkKayitReferansNo>
+               <bkKrediKartiTaksitliBakiye>000000263</bkKrediKartiTaksitliBakiye>
+               <bkKrediTuru>23</bkKrediTuru>
+               <bkKrediTutariLimiti>12250</bkKrediTutariLimiti>
+               <bkKurumRumuzu>A</bkKurumRumuzu>
+               <bkLimitKullanimOrani>0.09</bkLimitKullanimOrani>
+               <bkOdemePerformansiTarihcesi>000</bkOdemePerformansiTarihcesi>
+               <bkSiraNo>1</bkSiraNo>
+               <bkTakibeAlinmaBakiyesi>0</bkTakibeAlinmaBakiyesi>
+               <bkTakipTarihi />
+               <bkToplamBakiye>1026</bkToplamBakiye>
+               <bkToplamGeciktirilmisOdemeSayisi>00</bkToplamGeciktirilmisOdemeSayisi>
+               <bkTuketiciKredisiTaksitSayisi />
+               <bkTuketiciKredisiTaksitTutari />
+            </element>
+            <element>
+               <bkAcilisTarihi>20110914</bkAcilisTarihi>
+               <bkDovizKodu>TL</bkDovizKodu>
+               <bkEnSonGuncellemeTarihi>20190913</bkEnSonGuncellemeTarihi>
+               <bkGecikmedekiBakiye>0</bkGecikmedekiBakiye>
+               <bkHesaptakiKonumu>1</bkHesaptakiKonumu>
+               <bkKapanisTarihi>
+                  <element />
+               </bkKapanisTarihi>
+               <bkKayitReferansNo>5670737591250I</bkKayitReferansNo>
+               <bkKrediKartiTaksitliBakiye>000000000</bkKrediKartiTaksitliBakiye>
+               <bkKrediTuru>23</bkKrediTuru>
+               <bkKrediTutariLimiti>3500</bkKrediTutariLimiti>
+               <bkKurumRumuzu>B</bkKurumRumuzu>
+               <bkLimitKullanimOrani>0.00</bkLimitKullanimOrani>
+               <bkOdemePerformansiTarihcesi>000000000000000000</bkOdemePerformansiTarihcesi>
+               <bkSiraNo>2</bkSiraNo>
+               <bkTakibeAlinmaBakiyesi>0</bkTakibeAlinmaBakiyesi>
+               <bkTakipTarihi />
+               <bkToplamBakiye>0</bkToplamBakiye>
+               <bkToplamGeciktirilmisOdemeSayisi>
+                  <element />
+               </bkToplamGeciktirilmisOdemeSayisi>
+               <bkTuketiciKredisiTaksitSayisi />
+               <bkTuketiciKredisiTaksitTutari />
+            </element>
+         </bkHesap>
+      </bkHesapDokumuBeans>
+      <bkKrediNotu>1369</bkKrediNotu>
+      <bkKrediNotuSebepKodu1>12</bkKrediNotuSebepKodu1>
+      <bkKrediNotuSebepKodu2>06</bkKrediNotuSebepKodu2>
+      <bkKrediNotuSebepKodu3>09</bkKrediNotuSebepKodu3>
+      <bkKrediNotuSebepKodu4>17</bkKrediNotuSebepKodu4>
+      <bkMevcutEnUzunGecikmeSuresi>0</bkMevcutEnUzunGecikmeSuresi>
+      <bkSonKrediKullandirimTarihi>20190716</bkSonKrediKullandirimTarihi>
+      <bkSorguNo>72626513</bkSorguNo>
+      <bkTakibiDevamEdenKrediSayisi>0</bkTakibiDevamEdenKrediSayisi>
+      <bkTakipBildirimdeBulunanFinansKurulusuSayisi>0</bkTakipBildirimdeBulunanFinansKurulusuSayisi>
+      <bkToplamKrediliHesapSayisi>2</bkToplamKrediliHesapSayisi>
+      <bkToplamLimit>15750</bkToplamLimit>
+      <bkToplamRisk>1026</bkToplamRisk>
+      <bkToplamTakibeAlinmisKrediSayisi>0</bkToplamTakibeAlinmisKrediSayisi>
+      <bkToplamTakipBakiyesi>0</bkToplamTakipBakiyesi>
+      <bkWorstPaymetStatusEver>0</bkWorstPaymetStatusEver>
+      <krsSonucu>000</krsSonucu>
+      <krsVeriBulunduMu>true</krsVeriBulunduMu>
+   </BIREYSEL>
+   <TICARI>
+      <krmSonucu>1</krmSonucu>
+      <krmVeriBulunduMu>false</krmVeriBulunduMu>
+      <tkBildirimdeBulunanFinansKurulusuSayisi>0</tkBildirimdeBulunanFinansKurulusuSayisi>
+      <tkEnEskiTakipTarihi />
+      <tkEnGuncelLimitTahsisTarihi />
+      <tkEnYakinTakipTarihi />
+      <tkGecikmedekiHesapSayisi>0</tkGecikmedekiHesapSayisi>
+      <tkGecikmisBakiyeToplami>0</tkGecikmisBakiyeToplami>
+      <tkGuncelKrediBakiyesiToplami>0</tkGuncelKrediBakiyesiToplami>
+      <tkIlkKrediKullandirimTarihi />
+      <tkLimitRiskBeans />
+      <tkSonKrediKullandirimTarihi />
+      <tkTakFaktoringBildirimDonemi />
+      <tkTakFaktoringCalistigiBankVeDigerMaliKurulusSayisi>0</tkTakFaktoringCalistigiBankVeDigerMaliKurulusSayisi>
+      <tkTakFaktoringFaizReeskontKomisyon>0</tkTakFaktoringFaizReeskontKomisyon>
+      <tkTakFaktoringFaizTahakkukuKomisyon>0</tkTakFaktoringFaizTahakkukuKomisyon>
+      <tkTakFaktoringKrediLimiti>0</tkTakFaktoringKrediLimiti>
+      <tkTakFaktoring_12_24_Ay_Vadeli>0</tkTakFaktoring_12_24_Ay_Vadeli>
+      <tkTakFaktoring_1_12_Ay_Vadeli>0</tkTakFaktoring_1_12_Ay_Vadeli>
+      <tkTakFaktoring_24_Ay_Vadeli>0</tkTakFaktoring_24_Ay_Vadeli>
+      <tkTakLeasingBildirimDonemi />
+      <tkTakLeasingCalistigiBankVeDigerMaliKurulusSayisi>0</tkTakLeasingCalistigiBankVeDigerMaliKurulusSayisi>
+      <tkTakLeasingFaizReeskontKomisyon>0</tkTakLeasingFaizReeskontKomisyon>
+      <tkTakLeasingFaizTahakkukuKomisyon>0</tkTakLeasingFaizTahakkukuKomisyon>
+      <tkTakLeasingKrediLimiti>0</tkTakLeasingKrediLimiti>
+      <tkTakLeasing_12_24_Ay_Vadeli>0</tkTakLeasing_12_24_Ay_Vadeli>
+      <tkTakLeasing_1_12_Ay_Vadeli>0</tkTakLeasing_1_12_Ay_Vadeli>
+      <tkTakLeasing_24_Ay_Vadeli>0</tkTakLeasing_24_Ay_Vadeli>
+      <tkTakibeAlindigiTarihtekiRiskTutarlariToplami>0</tkTakibeAlindigiTarihtekiRiskTutarlariToplami>
+      <tkTakipHesabiBildirimdeBulunanFinansKurulusuSayisi>0</tkTakipHesabiBildirimdeBulunanFinansKurulusuSayisi>
+      <tkTokFaktoringBildirimDonemi />
+      <tkTokFaktoringCalistigiBankVeDigerMaliKurulusSayisi>0</tkTokFaktoringCalistigiBankVeDigerMaliKurulusSayisi>
+      <tkTokFaktoringFaizReeskontKomisyon>0</tkTokFaktoringFaizReeskontKomisyon>
+      <tkTokFaktoringFaizTahakkukuKomisyon>0</tkTokFaktoringFaizTahakkukuKomisyon>
+      <tkTokFaktoringKrediLimiti>0</tkTokFaktoringKrediLimiti>
+      <tkTokFaktoring_12_24_Ay_Vadeli>0</tkTokFaktoring_12_24_Ay_Vadeli>
+      <tkTokFaktoring_1_12_Ay_Vadeli>0</tkTokFaktoring_1_12_Ay_Vadeli>
+      <tkTokFaktoring_24_Ay_Vadeli>0</tkTokFaktoring_24_Ay_Vadeli>
+      <tkTokLeasingBildirimDonemi />
+      <tkTokLeasingCalistigiBankVeDigerMaliKurulusSayisi>0</tkTokLeasingCalistigiBankVeDigerMaliKurulusSayisi>
+      <tkTokLeasingFaizReeskontKomisyon>0</tkTokLeasingFaizReeskontKomisyon>
+      <tkTokLeasingFaizTahakkukuKomisyon>0</tkTokLeasingFaizTahakkukuKomisyon>
+      <tkTokLeasingKrediLimiti>0</tkTokLeasingKrediLimiti>
+      <tkTokLeasing_12_24_Ay_Vadeli>0</tkTokLeasing_12_24_Ay_Vadeli>
+      <tkTokLeasing_1_12_Ay_Vadeli>0</tkTokLeasing_1_12_Ay_Vadeli>
+      <tkTokLeasing_24_Ay_Vadeli>0</tkTokLeasing_24_Ay_Vadeli>
+      <tkToplamDigerLimit />
+      <tkToplamDigerRisk>0</tkToplamDigerRisk>
+      <tkToplamGayriNakdiLimit>0</tkToplamGayriNakdiLimit>
+      <tkToplamGayriNakdiRisk>0</tkToplamGayriNakdiRisk>
+      <tkToplamLimit>0</tkToplamLimit>
+      <tkToplamNakdiLimit>0</tkToplamNakdiLimit>
+      <tkToplamNakdiRisk>0</tkToplamNakdiRisk>
+      <tkToplamRisk>0</tkToplamRisk>
+   </TICARI>
+   <donusDegerleri>
+      <hataKodu>0000</hataKodu>
+      <islemSonucu>0</islemSonucu>
+   </donusDegerleri>
+   <ersRaporTuru>D</ersRaporTuru>
+   <raporTur>FD</raporTur>
+   <referansNo>603A796EB0</referansNo>
+   <varlikTuru>G</varlikTuru>
+</root>
+

@@ -1,11 +1,36 @@
-const fs = require("fs");   
-const xml2js = require("xml2js");
-const util = require("util");
 
-const parser = new xml2js.Parser();
+var parser = require('fast-xml-parser');
+var he = require('he');
+const fs = require("fs");
 
-fs.readFile("example.xml", (err, data) => {
-    parser.parseString(data, (err, result) => {
-        console.log(util.inspect(result, false, null, true));
-    })
-})
+let xml = fs.readFileSync("random.xml", "utf-8")
+
+
+var options = {
+    attributeNamePrefix : "@_",
+    attrNodeName: "attr", 
+    textNodeName : "#text",
+    ignoreAttributes : true,
+    ignoreNameSpace : false,
+    allowBooleanAttributes : false,
+    parseNodeValue : true,
+    parseAttributeValue : false,
+    trimValues: true,
+    cdataTagName: "__cdata", //default is 'false'
+    cdataPositionChar: "\\c",
+    parseTrueNumberOnly: false,
+    arrayMode: false, //"strict"
+    attrValueProcessor: (val, attrName) => he.decode(val, {isAttributeValue: true}),
+    tagValueProcessor : (val, tagName) => he.decode(val), 
+    stopNodes: ["parse-me-as-string"]
+};
+
+if( parser.validate(xml) === true) { 
+    var jsonObj = parser.parse(xml,options);
+}
+ 
+
+var tObj = parser.getTraversalObj(xml,options);
+var jsonObj = (parser.convertToJson(tObj,options));
+
+console.log(jsonObj)
