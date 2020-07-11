@@ -31,6 +31,6 @@ if( parser.validate(xml) === true) {
 
 var tObj = parser.getTraversalObj(xml,options);
 var jsonObj = (parser.convertToJson(tObj,options));
-var last = util.inspect(jsonObj, false, null, true);
+var lastJson = util.inspect(jsonObj, false, null, true);
 
-console.log(last)
+console.log(lastJson)
