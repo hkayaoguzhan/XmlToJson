@@ -2,9 +2,9 @@
 var parser = require('fast-xml-parser');
 var he = require('he');
 const fs = require("fs");
+const util = require("util");
 
 let xml = fs.readFileSync("random.xml", "utf-8")
-
 
 var options = {
     attributeNamePrefix : "@_",
@@ -28,9 +28,9 @@ var options = {
 if( parser.validate(xml) === true) { 
     var jsonObj = parser.parse(xml,options);
 }
- 
 
 var tObj = parser.getTraversalObj(xml,options);
 var jsonObj = (parser.convertToJson(tObj,options));
+var last = util.inspect(jsonObj, false, null, true);
 
-console.log(jsonObj)
+console.log(last)
