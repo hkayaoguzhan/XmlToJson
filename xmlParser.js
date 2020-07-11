@@ -1,10 +1,10 @@
 
 var parser = require('fast-xml-parser');
 var he = require('he');
-const fs = require("fs");
-const util = require("util");
+var fs = require("fs");
+var util = require("util");
 
-let xml = fs.readFileSync("random.xml", "utf-8")
+var xml = fs.readFileSync("random.xml", "utf-8")
 
 var options = {
     attributeNamePrefix : "@_",
