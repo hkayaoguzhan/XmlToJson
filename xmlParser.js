@@ -1,4 +1,3 @@
-
 var parser = require('fast-xml-parser');
 var he = require('he');
 var fs = require("fs");
@@ -7,11 +6,11 @@ var util = require("util");
 var xml = fs.readFileSync("random.xml", "utf-8")
 
 var options = {
-    attributeNamePrefix : "@_",
+    attributeNamePrefix : "@",
     attrNodeName: "attr", 
     textNodeName : "#text",
     ignoreAttributes : true,
-    ignoreNameSpace : false,
+    ignoreNameSpace : true,
     allowBooleanAttributes : false,
     parseNodeValue : true,
     parseAttributeValue : false,
@@ -25,12 +24,10 @@ var options = {
     stopNodes: ["parse-me-as-string"]
 };
 
-if( parser.validate(xml) === true) { 
-    var jsonObj = parser.parse(xml,options);
-}
-
 var tObj = parser.getTraversalObj(xml,options);
 var jsonObj = (parser.convertToJson(tObj,options));
 var lastJson = util.inspect(jsonObj, false, null, true);
 
-console.log(lastJson)
+console.log(lastJson);
+
+
