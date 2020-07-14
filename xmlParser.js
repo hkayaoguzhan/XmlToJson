@@ -1,33 +1,23 @@
-var parser = require('fast-xml-parser');
-var he = require('he');
-var fs = require("fs");
-var util = require("util");
+const fs = require("fs");
+const util = require("util");
+const xml2js = require("xml2js");
 
-var xml = fs.readFileSync("random.xml", "utf-8")
+ 
+var xml = fs.readFileSync("random.xml", "utf-8");
 
-var options = {
-    attributeNamePrefix : "@",
-    attrNodeName: "attr", 
-    textNodeName : "#text",
-    ignoreAttributes : true,
-    ignoreNameSpace : true,
-    allowBooleanAttributes : false,
-    parseNodeValue : true,
-    parseAttributeValue : false,
-    trimValues: true,
-    cdataTagName: "__cdata", //default is 'false'
-    cdataPositionChar: "\\c",
-    parseTrueNumberOnly: false,
-    arrayMode: false, //"strict"
-    attrValueProcessor: (val, attrName) => he.decode(val, {isAttributeValue: true}),
-    tagValueProcessor : (val, tagName) => he.decode(val), 
-    stopNodes: ["parse-me-as-string"]
-};
+function testXmlParse(xml) {
+  var parser = new xml2js.Parser({ explicitArray: false, explicitRoot: false });
 
-var tObj = parser.getTraversalObj(xml,options);
-var jsonObj = (parser.convertToJson(tObj,options));
-var lastJson = util.inspect(jsonObj, false, null, true);
+  parser.parseString(xml, (err, result) => {
+    if (err) {
+      console.error("Something wrong: ", err);
+    } else {
+      var lastJson = util.inspect(result, false, null, true);
+      console.log(lastJson);
+    }
+  });
+}
 
-console.log(lastJson);
-
+testXmlParse(xml);
+ 
 

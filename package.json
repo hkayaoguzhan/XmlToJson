@@ -17,9 +17,6 @@
   },
   "homepage": "https://github.com/hkayaoguzhan/XmlToJson#readme",
   "dependencies": {
-    "fast-xml-parser": "^3.17.4",
-    "he": "^1.2.0",
-    "xml-js": "^1.6.11",
     "xml2js": "^0.4.23"
   }
 }
